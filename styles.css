@@ -1,0 +1,66 @@
+.centered {
+  text-align: center;
+}
+
+.blocked {
+  width: 70%;
+  margin: auto;
+}
+
+body {
+  width: 80%;
+  margin: 20px auto;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 15px;
+}
+
+p {
+  margin: 0;
+}
+
+h1 {
+  margin: 30px 0;
+  font-size: 50px;
+  font-weight: 500;
+  text-align: center;
+}
+
+img {
+  margin: 15px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  font-size: 10px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* index page */
+.index-button {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 15px 30px;
+  border-radius: 7px;
+  margin: 15px 30px;
+  background-color: rgb(255, 189, 23);
+}
+
+.index-button:hover {
+  text-decoration: none;
+}
+
+/* photo page */
+
+/* contact page */
