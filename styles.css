@@ -1,9 +1,6 @@
 :root {
-  --accent-color: rgb(0, 87, 183);
-  --secondary-color: rgba(255, 215, 0, 0.5);
-  --hover-transition: 0.7s;
+  --background-color: rgba(255, 189, 23, 0.2);
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-  /* --opacity: 85%; */
 }
 
 .centered {
@@ -21,6 +18,7 @@
 
 body {
   text-align: center;
+  background-color: var(--background-color);
 }
 
 h1,
@@ -67,6 +65,7 @@ img {
   padding: 20px;
   border: 1px grey;
   border-radius: 7px;
+  background-color: rgb(246, 247, 230);
 }
 
 footer {
