@@ -15,6 +15,14 @@
   margin: auto;
 }
 
+.bold {
+  font-weight: bold;
+}
+
+body {
+  text-align: center;
+}
+
 h1,
 h2,
 h3,
@@ -64,6 +72,7 @@ img {
 footer {
   font-size: 10px;
   text-align: center;
+  padding: 20px 0;
 }
 
 a {
@@ -103,5 +112,25 @@ a:hover {
 }
 
 /* photo page */
+ol {
+  list-style-type: upper-roman;
+  text-align: justify;
+  width: 70%;
+  margin: auto;
+}
 
+li p {
+  font-size: 15px;
+}
 /* contact page */
+ul li {
+  margin: 30px;
+}
+
+li p a {
+  font-size: 13px;
+}
+
+li p a:visited {
+  color: rgba(0, 0, 0, 0.3);
+}
