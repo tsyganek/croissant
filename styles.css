@@ -75,6 +75,11 @@ a:hover {
   color: #aa5607;
 }
 
+.logo {
+  font-size: 25px;
+  font-family: "Dancing Script", cursive;
+}
+
 /* index page */
 .index-button {
   display: inline-block;
